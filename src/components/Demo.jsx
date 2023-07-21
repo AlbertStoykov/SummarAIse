@@ -74,9 +74,16 @@ const Demo = () => {
               className="link_card"
             >
               <div className="copy_btn">
-                <img src={copy) alt="copy_icon" className="w-[40%] h-[40%] object-contain"/>
+                <img
+                  src={copy}
+                  alt="copy_icon"
+                  className="w-[40%] h-[40%] object-contain"
+                />
               </div>
-            </div>;
+              <p className="flex-1 font-satoshi text-blue-700 font-medium text-sm truncate">
+                {item.url}{" "}
+              </p>
+            </div>
           ))}
         </div>
       </div>
