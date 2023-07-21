@@ -80,7 +80,12 @@ const Demo = () => {
               onClick={() => setArticle(item)}
               className="link_card"
             >
-              <div className="copy_btn">
+              <div
+                className="copy_btn"
+                onClick={() => {
+                  handleCopy(item.url);
+                }}
+              >
                 <img
                   src={copy}
                   alt="copy_icon"
