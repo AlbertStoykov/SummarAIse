@@ -16,7 +16,17 @@ const Demo = () => {
             className="absolute left-0 my-2 ml-3 w-5"
           />
 
-          <input type="url" placeholder="Enter URL" />
+          <input
+            type="url"
+            placeholder="Enter URL"
+            value=""
+            onClick={() => {}}
+            required
+            className="url_input peer"
+          />
+          <button type="submit" className="submit_btn">
+            &#9166;
+          </button>
         </form>
       </div>{" "}
     </section>
