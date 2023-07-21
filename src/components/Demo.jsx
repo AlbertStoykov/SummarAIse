@@ -67,15 +67,17 @@ const Demo = () => {
         </form>
         {/* URL History */}
         <div className="flex flex-col gap-1 max-h-60 overflow-y-auto">
-          {allArticles.map((item, index) => {
+          {allArticles.map((item, index) => (
             <div
               key={`link-${index}`}
               onClick={() => setArticle(item)}
               className="link_card"
             >
-              <div className="copy_btn"></div>
+              <div className="copy_btn">
+                <img src={copy) alt="copy_icon" className="w-[40%] h-[40%] object-contain"/>
+              </div>
             </div>;
-          })}
+          ))}
         </div>
       </div>
       {/* Results */}
