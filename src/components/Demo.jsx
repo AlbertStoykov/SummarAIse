@@ -26,13 +26,18 @@ const Demo = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    const existingArticle = allArticles.find(
+      (item) => item.url === article.url
+    );
+    if (existingArticle) return setArticle(existingArticle);
+
     const { data } = await getSummary({ articleUrl: article.url });
 
     if (data?.summary) {
       const newArticle = { ...article, summary: data.summary };
       const updatedAllArticles = [newArticle, ...allArticles];
       setArticle(newArticle);
-
+      setAllArticles(updatedAllArticles);
       localStorage.setItem("articles", JSON.stringify(updatedAllArticles));
     }
   };
@@ -41,6 +46,12 @@ const Demo = () => {
     setCopied(copyUrl);
     navigator.clipboard.writeText(copyUrl);
     setTimeout(() => setCopied(false), 3000);
+  };
+
+  const handleKeyDown = (e) => {
+    if (e.keyCode === 13) {
+      handleSubmit(e);
+    }
   };
   return (
     <section className="mt-16 w-full max-w-xl">
@@ -69,7 +80,7 @@ const Demo = () => {
             peer-focus:border-gray-700 
             peer-focus:text-gray-700"
           >
-            &#9166;
+            <p>↵</p>{" "}
           </button>
         </form>
         {/* URL History */}
