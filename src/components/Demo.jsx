@@ -90,12 +90,30 @@ const Demo = () => {
       {/* Results */}
       <div className="my-10 max-w-full flex justify-center">
         {isFetching ? (
-          <img src={loader} alt="loader" className="w-20 h-20 object-contain"/>) : error ? (
-            <p className="font-inter 
-            font-bold text-black text-center">
-              A mistake has happened..</p>
-            <br/>
-            <span className="font-satoshi font-normal text-gray-700">{error?.data?.error}</span>
+          <img src={loader} alt="loader" className="w-20 h-20 object-contain" />
+        ) : error ? (
+          <p
+            className="font-inter 
+            font-bold text-black text-center"
+          >
+            A mistake has happened..
+            <br />
+            <span className="font-satoshi font-normal text-gray-700">
+              {error?.data?.error}
+            </span>
+          </p>
+        ) : (
+          article.summary && (
+            <div className="flex flex-col gap-3">
+              <h2 className="font-satoshi font-bold text-gray-600 text-x1">
+                Article <span className="blue_gradient">Summary</span>
+              </h2>
+              <div className="summary_box">
+                <p className="font-inter font-medium text-sm text-gray-700">
+                  {article.summary}
+                </p>
+              </div>
+            </div>
           )
         )}
       </div>
