@@ -18,6 +18,7 @@ const Hero = () => {
       <h1 className="head_text">
         <span className="orange_gradient">ChatGPT</span> Article Summarizer
       </h1>
+      <h2 className="desc">SummarAIse is an open-source</h2>
     </header>
   );
 };
