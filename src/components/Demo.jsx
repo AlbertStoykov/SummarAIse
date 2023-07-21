@@ -66,6 +66,7 @@ const Demo = () => {
           </button>
         </form>
         {/* URL History */}
+        <div className="flex flex-col"></div>
       </div>
       {/* Results */}
     </section>
