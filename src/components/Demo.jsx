@@ -95,7 +95,7 @@ const Demo = () => {
             font-bold text-black text-center">
               A mistake has happened..</p>
             <br/>
-            <span className="">{error?.data?.error}</span>
+            <span className="font-satoshi font-normal text-gray-700">{error?.data?.error}</span>
           )
         )}
       </div>
