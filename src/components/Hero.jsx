@@ -1,7 +1,9 @@
-import React from "react";
+import { logo } from "../assets";
 
 const Hero = () => {
-  return <div>Hero</div>;
+  return (
+    <header className="w-full flex justify-content items-center flex-col"></header>
+  );
 };
 
 export default Hero;
