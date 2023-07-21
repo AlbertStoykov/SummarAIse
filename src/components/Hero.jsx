@@ -15,6 +15,9 @@ const Hero = () => {
       >
         GitHub
       </button>
+      <h1 className="head_text">
+        <span className="orange_gradient">ChatGPT</span> Article Summarizer
+      </h1>
     </header>
   );
 };
