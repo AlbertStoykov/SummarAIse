@@ -8,7 +8,7 @@ const Demo = () => {
     url: "",
     summary: "",
   });
-  const [allArticles, setAllArticles] = useState();
+  const [allArticles, setAllArticles] = useState([]);
   const [copied, setCopied] = useState("");
 
   const [getSummary, { error, isFetching }] = useLazyGetSummaryQuery();

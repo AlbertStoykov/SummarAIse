@@ -16,11 +16,11 @@ const Hero = () => {
         GitHub
       </button>
       <h1 className="head_text">
-        <span className="orange_gradient">ChatGPT</span> Article Summarizer
+        <span className="orange_gradient">ChatGPT Article Summarizer based on ChatGPT
       </h1>
       <h2 className="desc">
         Tired of reading lenghty articles where 90% of the text is fluff? The
-        SummarAIse encapsulator is here to help!
+        SummarAIse</span> encapsulator is here to help!
       </h2>
     </header>
   );
