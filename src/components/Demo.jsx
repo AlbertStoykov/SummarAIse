@@ -33,7 +33,7 @@ const Demo = () => {
             &#9166;
           </button>
         </form>
-      </div>{" "}
+      </div>
     </section>
   );
 };
