@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { getDefaultMiddleware } from "@reduxjs/toolkit/dist/getDefaultMiddleware";
+// import { CurriedGetDefaultMiddleware } from "@reduxjs/toolkit/dist/curriedDefaultMiddleware";
 
 import { articleApi } from "./article";
 
