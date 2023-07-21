@@ -18,7 +18,10 @@ const Hero = () => {
       <h1 className="head_text">
         <span className="orange_gradient">ChatGPT</span> Article Summarizer
       </h1>
-      <h2 className="desc">SummarAIse is an open-source</h2>
+      <h2 className="desc">
+        Tired of reading lenghty articles where 90% of the text if fluff? The
+        SummarAIse encapsulator is here to help!
+      </h2>
     </header>
   );
 };
