@@ -33,7 +33,9 @@ const Demo = () => {
             &#9166;
           </button>
         </form>
+        {/* URL History */}
       </div>
+      {/* Results */}
     </section>
   );
 };
