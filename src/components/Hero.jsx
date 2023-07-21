@@ -5,7 +5,7 @@ import { logo } from "../assets";
 const Hero = () => {
   return (
     <header className="w-full flex justify-content items-center flex-col">
-      <nav className="flex justify-between w-full mb-10">
+      <nav className="flex justify-between w-full mb-10 pt-3">
         <img src={logo} alt="sum_logo" className="w-28 object-contain" />
         <button
           type="button"
