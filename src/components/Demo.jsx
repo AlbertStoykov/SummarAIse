@@ -74,7 +74,7 @@ const Demo = () => {
         </form>
         {/* URL History */}
         <div className="flex flex-col gap-1 max-h-60 overflow-y-auto">
-          {allArticles.map((item, index) => (
+          {allArticles.reverse().map((item, index) => (
             <div
               key={`link-${index}`}
               onClick={() => setArticle(item)}
@@ -88,7 +88,7 @@ const Demo = () => {
               >
                 <img
                   src={copied === item.url ? tick : copy}
-                  alt="copy_icon"
+                  alt={copied === item.url ? "tick_icon" : "copy_icon"}
                   className="w-[40%] h-[40%] object-contain"
                 />
               </div>
@@ -99,6 +99,7 @@ const Demo = () => {
           ))}
         </div>
       </div>
+
       {/* Results */}
       <div className="my-10 max-w-full flex justify-center">
         {isFetching ? (
