@@ -16,7 +16,7 @@ const Demo = () => {
             className="absolute left-0 my-2 ml-3 w-5"
           />
 
-          <input></input>
+          <input type="url" placeholder="Enter URL" />
         </form>
       </div>{" "}
     </section>
