@@ -88,7 +88,17 @@ const Demo = () => {
         </div>
       </div>
       {/* Results */}
-      <div className="my-10 max-w-full flex justify-center"></div>
+      <div className="my-10 max-w-full flex justify-center">
+        {isFetching ? (
+          <img src={loader} alt="loader" className="w-20 h-20 object-contain"/>) : error ? (
+            <p className="font-inter 
+            font-bold text-black text-center">
+              A mistake has happened..</p>
+            <br/>
+            <span className="">{error?.data?.error}</span>
+          )
+        )}
+      </div>
     </section>
   );
 };
