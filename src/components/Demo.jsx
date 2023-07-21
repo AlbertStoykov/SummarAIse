@@ -32,7 +32,7 @@ const Demo = () => {
       const updatedAllArticles = [newArticle, ...allArticles];
       setArticle(newArticle);
 
-      console.log(newArticle);
+      localStorage.setItem("articles", JSON.stringify(updatedAllArticles));
     }
   };
   return (
