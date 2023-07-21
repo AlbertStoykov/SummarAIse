@@ -87,7 +87,7 @@ const Demo = () => {
                 }}
               >
                 <img
-                  src={copy}
+                  src={copied === item.url ? tick : copy}
                   alt="copy_icon"
                   className="w-[40%] h-[40%] object-contain"
                 />
