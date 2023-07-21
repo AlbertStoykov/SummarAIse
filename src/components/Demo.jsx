@@ -81,7 +81,7 @@ const Demo = () => {
                 />
               </div>
               <p className="flex-1 font-satoshi text-blue-700 font-medium text-sm truncate">
-                {item.url}{" "}
+                {item.url}
               </p>
             </div>
           ))}
