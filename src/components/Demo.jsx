@@ -16,6 +16,10 @@ const Demo = () => {
     const articlesFromLocalStorage = JSON.parse(
       localStorage.getItem("articles")
     );
+
+    if (articlesFromLocalStorage) {
+      setAllArticles(articlesFromLocalStorage);
+    }
   }, []);
 
   const handleSubmit = async (e) => {
