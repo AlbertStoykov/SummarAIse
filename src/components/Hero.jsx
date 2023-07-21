@@ -1,20 +1,22 @@
+import React from "react";
+
 import { logo } from "../assets";
 
 const Hero = () => {
   return (
     <header className="w-full flex justify-content items-center flex-col">
-      <nav className="flex justify-between items-center w-full mb-10 pt-3">
+      <nav className="flex justify-between w-full mb-10">
         <img src={logo} alt="sum_logo" className="w-28 object-contain" />
+        <button
+          type="button"
+          onClick={() =>
+            window.open("https://github.com/AlbertStoykov/SummarAIse")
+          }
+          className="black_btn"
+        >
+          GitHub
+        </button>
       </nav>
-      <button
-        type="button"
-        onClick={() =>
-          window.open("https://github.com/AlbertStoykov/SummarAIse")
-        }
-        className="black_btn"
-      >
-        GitHub
-      </button>
       <h1 className="head_text">
         <span className="orange_gradient">SummarAIse</span>
         <br></br>Article Summarizer based on ChatGPT
