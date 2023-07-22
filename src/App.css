@@ -66,9 +66,9 @@
   @apply relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
 }
 
-.black_btn {
+/* .black_btn {
   @apply rounded-full border border-white bg-white py-1.5 px-5 text-sm text-black transition-all hover:bg-black hover:text-white;
-}
+} */
 
 .head_text {
   @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl text-center;
