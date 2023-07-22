@@ -19,7 +19,7 @@ const Hero = () => {
       </nav>
       <h1 className="head_text">
         <span className="orange_gradient">SummarAIse</span>
-        <br></br>Article Summarizer based on ChatGPT
+        <br></br>Article Summarizer powered by AI
       </h1>
       <h2 className="desc">
         Tired of reading lenghty articles where 90% of the text is fluff? The{" "}
