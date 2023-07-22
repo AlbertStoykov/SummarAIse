@@ -20,12 +20,12 @@ const Hero = () => {
         </h2>
       </header>
 
-      <footer class="bg-white rounded-lg shadow dark:bg-gray-600 m-10">
+      <footer class="fixed bottom-0 left-0 w-full bg-white rounded-lg bg-transparent">
         <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
           <div class="sm:flex sm:items-center sm:justify-between"></div>
           <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-          <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
-            © 2023{" "}
+          <span class="block text-lg text-black-500 sm:text-center dark:text-black-400">
+            © 2023
             <a href="https://flowbite.com/" class="hover:underline">
               SummarAIse™
             </a>
@@ -35,7 +35,7 @@ const Hero = () => {
               onClick={() =>
                 window.open("https://github.com/AlbertStoykov/SummarAIse")
               }
-              className="black_btn"
+              className="black_btn pl-3"
             >
               GitHub
             </button>
