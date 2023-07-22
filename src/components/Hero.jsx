@@ -67,7 +67,7 @@ const Hero = () => {
                     ></path>
                   </svg>
                 </span>
-                {/*  */}
+                {/* Arrow Animation */}
                 <span className="relative">Go</span>
               </span>
               <span
