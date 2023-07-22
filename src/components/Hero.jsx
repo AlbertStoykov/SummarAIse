@@ -21,15 +21,11 @@ const Hero = () => {
         </h2>
       </header>
 
-      <footer className="fixed bottom-0 left-0 w-full bg-white rounded-lg">
+      <footer className="fixed bottom-0 left-0 w-full">
         <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-          <div className="sm:flex sm:items-center sm:justify-between"></div>
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <span className="block text-lg text-black-500 sm:text-center dark:text-black-400">
-            © 2023
-            <a href="https://flowbite.com/" className="hover:underline">
-              SummarAIse™. All Rights Reserved.
-            </a>
+            © 2023 SummarAIse
             <button
               type="button"
               onClick={() =>
