@@ -19,7 +19,7 @@
 
 ## Future features
 
-- Chat function, so the user can customize the article summarisation.
+- Chat function, users can customize the article summarisation.
 
 ---
 
