@@ -164,7 +164,7 @@ const Demo = () => {
         ) : (
           article.summary && (
             <div className="flex flex-col gap-3">
-              <h2 className="font-satoshi font-bold text-gray-600 text-x1">
+              <h2 className="font-satoshi font-bold text-white text-lg">
                 Article <span>Summary</span>
               </h2>
               <div className="summary_box">
