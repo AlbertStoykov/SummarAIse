@@ -83,12 +83,12 @@ const Demo = () => {
           >
             <a
               href="https://github.com/AlbertStoykov/SummarAIse"
-              className="relative inline-block text-lg group m-12"
+              className="relative inline-block text-lg group m-2"
             >
-              <span className="relative z-10 block px-10 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
-                <span className="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
+              <span className="relative z-10 block px-10 py-2.5 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
+                <span className="absolute inset-0 w-full h-full px-1 py-1 rounded-lg bg-gray-50"></span>
 
-                <span className="absolute left-0 w-48 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span>
+                <span className="absolute left-0 w-48 h-48 -ml-5 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span>
                 {/* Arrow Animation */}
                 <span className="absolute left-0 block w-full h-0 transition-all bg-white-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
                 <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
@@ -168,7 +168,7 @@ const Demo = () => {
                 Article <span>Summary</span>
               </h2>
               <div className="summary_box">
-                <p className="font-inter font-medium text-sm">
+                <p className="font-inter font-medium text-white text-lg">
                   {article.summary}
                 </p>
               </div>
