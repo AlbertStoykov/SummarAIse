@@ -67,7 +67,7 @@
 }
 
 .black_btn {
-  @apply rounded-full border border-black bg-black py-1.5 px-5 text-sm text-white transition-all hover:bg-white hover:text-black;
+  @apply rounded-full border border-white bg-white py-1.5 px-5 text-sm text-black transition-all hover:bg-black hover:text-white;
 }
 
 .head_text {
@@ -83,7 +83,7 @@
 }
 
 .submit_btn {
-  @apply hover:border-gray-700 hover:text-gray-700 absolute inset-y-0 right-0 my-1.5 mr-1.5 flex w-10 items-center justify-center rounded border border-gray-400 font-sans text-sm font-medium text-gray-400;
+  @apply hover:border-gray-700 hover:text-gray-700 absolute inset-y-0 right-0 my-1.5 mr-1.5 flex w-10 items-center justify-center rounded border border-gray-400 font-sans text-sm font-medium text-gray-800;
 }
 
 .link_card {
