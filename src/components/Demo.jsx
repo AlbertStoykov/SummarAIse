@@ -80,33 +80,33 @@ const Demo = () => {
             peer-focus:border-gray-700 
             peer-focus:text-gray-700"
           >
-            <p></p>{" "}
-          </button>
-          {/*  */}
-          <a
-            href="#_"
-            className="relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-indigo-600 border-2 border-indigo-600 rounded-full hover:text-white group hover:bg-gray-50"
-          >
-            <span className="absolute left-0 block w-full h-0 transition-all bg-indigo-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
-            <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
-              <svg
-                className="w-5 h-5"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M14 5l7 7m0 0l-7 7m7-7H3"
-                ></path>
-              </svg>
-            </span>
-            <span className="relative">Summary</span>
             {/*  */}
-          </a>
+            <a
+              className="relative submit_btn 
+            peer-focus:border-gray-700 
+            peer-focus:text-gray-700 inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-black-600 border-2 border-white-600 rounded-lg hover:text-black group hover:bg-gray-50"
+            >
+              <span className="absolute left-0 block w-full h-0 transition-all bg-white-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+              <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+                <svg
+                  className="w-5 h-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  ></path>
+                </svg>
+              </span>
+              <span className="relative">Summary</span>
+            </a>
+            {/*  */}
+          </button>
         </form>
         {/* URL History */}
         <div className="flex flex-col gap-1 max-h-60 overflow-y-auto">
@@ -155,7 +155,7 @@ const Demo = () => {
           article.summary && (
             <div className="flex flex-col gap-3">
               <h2 className="font-satoshi font-bold text-gray-600 text-x1">
-                Article <span className="blue_gradient">Summary</span>
+                Article <span>Summary</span>
               </h2>
               <div className="summary_box">
                 <p className="font-inter font-medium text-sm">
