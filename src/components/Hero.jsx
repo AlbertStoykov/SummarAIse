@@ -10,17 +10,18 @@ const Hero = () => {
           <img src={logo} alt="sum_logo" className="w-[25%] object-contain" />
         </nav>
         <h1 className="head_text">
-          <span className="orange_gradient">SummarAIse</span>
+          <i>SummarAIse</i>
           <br></br>Article Summarizer powered by AI
         </h1>
         <h2 className="desc">
-          Tired of reading lenghty articles where 90% of the text is fluff? The{" "}
-          <span className="orange_gradient">SummarAIse</span> encapsulator is
-          here to help!
+          <strong>
+            Tired of reading lenghty articles where 90% of the text is fluff?
+            The SummarAIse encapsulator is here to help!
+          </strong>
         </h2>
       </header>
 
-      <footer className="fixed bottom-0 left-0 w-full bg-white rounded-lg bg-transparent">
+      <footer className="fixed bottom-0 left-0 w-full bg-white rounded-lg">
         <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
           <div className="sm:flex sm:items-center sm:justify-between"></div>
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
@@ -34,7 +35,7 @@ const Hero = () => {
               onClick={() =>
                 window.open("https://github.com/AlbertStoykov/SummarAIse")
               }
-              className="black_btn m-5"
+              className="black_btn m-10"
             >
               GitHub
             </button>
