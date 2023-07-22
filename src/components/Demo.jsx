@@ -74,13 +74,13 @@ const Demo = () => {
             required
             className="url_input peer"
           />
+          {/* Button */}
           <button
             type="submit"
             className="submit_btn 
             peer-focus:border-gray-700 
             peer-focus:text-gray-700"
           >
-            {/* Button */}
             <a
               href="https://github.com/AlbertStoykov/SummarAIse"
               className="relative inline-block text-lg group m-12"
@@ -115,8 +115,8 @@ const Demo = () => {
                 data-rounded="rounded-lg"
               ></span>
             </a>
-            {/*  */}
           </button>
+          {/* Button */}
         </form>
         {/* URL History */}
         <div className="flex flex-col gap-1 max-h-60 overflow-y-auto">
