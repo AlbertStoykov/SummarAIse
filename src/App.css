@@ -17,7 +17,7 @@
 }
 
 .main:before {
-  background: #91a3b0;
+  background: #35363a;
   position: absolute;
   content: "";
   z-index: 2;
@@ -43,7 +43,7 @@
   z-index: 3;
   width: 100%;
   max-width: 640px;
-  background-image: #91a3b0;
+  background-image: #35363a;
 
   position: absolute;
   content: "";
@@ -74,12 +74,8 @@
   @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl text-center;
 }
 
-.orange_gradient {
-  @apply bg-gradient-to-r from-orange-600 via-amber-600 to-yellow-600 bg-clip-text text-transparent;
-}
-
 .desc {
-  @apply mt-5 text-lg text-gray-600 sm:text-xl text-center max-w-2xl;
+  @apply mt-5 text-lg text-white sm:text-xl text-center max-w-2xl;
 }
 
 .url_input {
