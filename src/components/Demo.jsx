@@ -37,6 +37,7 @@ const Demo = () => {
     if (data?.summary) {
       const newArticle = { ...article, summary: data.summary };
       const updatedAllArticles = [newArticle, ...allArticles];
+      //  State and local storage update
       setArticle(newArticle);
       setAllArticles(updatedAllArticles);
       localStorage.setItem("articles", JSON.stringify(updatedAllArticles));
