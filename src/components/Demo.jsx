@@ -55,7 +55,7 @@ const Demo = () => {
   };
   return (
     <section className="mt-16 w-full max-w-xl">
-      <div className="flex flex-col w-full gap-2">
+      <div className="flex flex-col w-full gap-3">
         <form
           className="relative justify-center items-center"
           onSubmit={handleSubmit}
