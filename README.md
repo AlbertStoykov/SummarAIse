@@ -4,7 +4,7 @@ An Article Summariser powered by AI.
 
 ### Live App
 
-[https://artfol-io.herokuapp.com/](https://artfol-io.herokuapp.com/)
+[https://https://summaraise.netlify.app/](https://https://summaraise.netlify.app/)
 
 ## Technologies
 
