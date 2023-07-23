@@ -88,7 +88,7 @@ const Demo = () => {
                     className="w-10 h-9"
                     fill="none"
                     stroke="currentColor"
-                    viewBox="0 5 24 24"
+                    viewBox="5 5 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
@@ -100,7 +100,7 @@ const Demo = () => {
                   </svg>
                 </span>
                 {/* Arrow Animation */}
-                <span className="relative mr-2">Go</span>
+                <span className="relative mr-3">Go</span>
               </span>
               {/* Button Shadow */}
               <span
