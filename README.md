@@ -6,6 +6,10 @@ An Article Summariser powered by AI.
 
 <a href="https://summaraise.netlify.app/" target="_blank">Visit SummarAIse</a>
 
+[SummarAIse][summaraise]
+
+[summaraise]: https://summaraise.netlify.app/
+
 ## Technologies
 
 - React
