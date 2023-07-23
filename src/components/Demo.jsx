@@ -77,12 +77,6 @@ const Demo = () => {
             required
             className="url_input text-center peer"
           />
-          <button
-            type="submit"
-            className="submit_btn peer-focus:border-gray-700 peer-focus:text-gray-700 "
-          >
-            <p>↵</p>
-          </button>
           {/* Button */}
           <button type="submit" className="submit_btn">
             <a className="relative inline-block ml-[170%] text-lg group m-5">
