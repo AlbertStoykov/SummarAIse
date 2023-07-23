@@ -57,7 +57,7 @@ const Demo = () => {
     <section className="mt-16 w-full max-w-xl">
       <div className="flex flex-col w-full gap-2">
         <form
-          className="relative flex justify-center items-center"
+          className="relative justify-center items-center"
           onSubmit={handleSubmit}
         >
           <img
@@ -75,21 +75,13 @@ const Demo = () => {
             className="url_input peer"
           />
           {/* Button */}
-          <button
-            type="submit"
-            className="submit_btn 
-            peer-focus:border-gray-700 
-            peer-focus:text-gray-700"
-          >
-            <a
-              href="https://github.com/AlbertStoykov/SummarAIse"
-              className="relative inline-block text-lg group m-2"
-            >
+          <button type="submit" className="submit_btn ">
+            <a className="relative inline-block text-lg group m-2">
               <span className="relative z-10 block px-10 py-2.5 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
                 <span className="absolute inset-0 w-full h-full px-1 py-1 rounded-lg bg-gray-50"></span>
 
-                <span className="absolute left-0 w-48 h-48 -ml-5 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span>
                 {/* Arrow Animation */}
+                <span className="absolute left-0 w-48 h-48 -ml-5 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span>
                 <span className="absolute left-10 block w-full h-10 transition-all bg-white-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
                 <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
                   <svg
@@ -110,10 +102,12 @@ const Demo = () => {
                 {/* Arrow Animation */}
                 <span className="relative mr-2">Go</span>
               </span>
+              {/* Button Shadow */}
               <span
                 className="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-gray-900 rounded-lg group-hover:mb-0 group-hover:mr-0"
                 data-rounded="rounded-lg"
               ></span>
+              {/* Button Shadow */}
             </a>
           </button>
           {/* Button */}
