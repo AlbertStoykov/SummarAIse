@@ -4,7 +4,7 @@ An Article Summariser powered by AI.
 
 ### Live App
 
-[https://summaraise.netlify.app/](summaraise.netlify.app/)
+[Visit SummarAIse](https://summaraise.netlify.app/){:target="\_blank"}
 
 ## Technologies
 
