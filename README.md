@@ -1,5 +1,6 @@
 # SummarAIse
 
+![alt text](https://github.com/AlbertStoykov/SummarAIse/blob/main/src/assets/logo.svg?raw=true)
 An Article Summariser powered by AI.
 
 ### Live App

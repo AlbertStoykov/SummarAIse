@@ -4,11 +4,11 @@ import { logo } from "../assets";
 
 const Hero = () => {
   return (
-    <header className=" w-full flex justify-content items-center flex-col">
-      <nav className="flex justify-between w-full mb-10 pt-3">
+    <header className=" w-full flex justify-center  items-center flex-col">
+      <nav className="flex justify-between w-full mb-1 pt-1">
         <img src={logo} alt="sum_logo" className="w-[30%] object-contain" />
         {/* Github Button */}
-        <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        <div className="w-1/5 max-w-screen-x1 mx-14 p-12 md:py-1">
           <a
             href="https://github.com/AlbertStoykov/SummarAIse"
             className="relative inline-block text-lg group m-12"
