@@ -63,7 +63,7 @@ const Demo = () => {
           <img
             src={linkIcon}
             alt="link_icon"
-            className="absolute left-0 my-3 ml-3 w-5"
+            className="absolute left-0 my-2.5 ml-3 w-6"
           />
 
           <input
@@ -129,7 +129,7 @@ const Demo = () => {
                 <img
                   src={copied === item.url ? tick : copy}
                   alt={copied === item.url ? "tick_icon" : "copy_icon"}
-                  className="w-[40%] h-[40%] object-contain"
+                  className="w-[80%] h-[80%] object-contain"
                 />
               </div>
               <p className="flex-1 font-satoshi text-blue-700 font-medium text-sm truncate">
