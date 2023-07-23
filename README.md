@@ -1,6 +1,8 @@
 # SummarAIse
 
-<img src="https://github.com/AlbertStoykov/SummarAIse/blob/main/src/assets/logo.svg" alt="Logo" style="width: 200px; height: auto;">
+<div style="display: flex; justify-content: center;">
+  <img src="https://github.com/AlbertStoykov/SummarAIse/blob/main/src/assets/logo.svg" alt="Logo" style="width: 200px; height: auto;">
+</div>
 
 An Article Summariser powered by AI.
 
