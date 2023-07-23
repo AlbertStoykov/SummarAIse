@@ -103,7 +103,7 @@ const Demo = () => {
                   </svg>
                 </span>
                 {/* Arrow Animation */}
-                <span className="relative mr-3">Go</span>
+                <span className="relative mr-2">Go</span>
               </span>
               {/* Button Shadow */}
               <span
