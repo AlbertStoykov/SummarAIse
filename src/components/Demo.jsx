@@ -72,7 +72,7 @@ const Demo = () => {
             value={article.url}
             onChange={(e) => setArticle({ ...article, url: e.target.value })}
             required
-            className="url_input peer"
+            className="url_input text-center peer"
           />
           {/* Button */}
           <button type="submit" className="submit_btn">
