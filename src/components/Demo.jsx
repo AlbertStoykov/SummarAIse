@@ -47,7 +47,7 @@ const Demo = () => {
     navigator.clipboard.writeText(copyUrl);
     setTimeout(() => setCopied(false), 3000);
   };
-
+  //
   const handleKeyDown = (e) => {
     if (e.keyCode === 13) {
       handleSubmit(e);
@@ -71,6 +71,7 @@ const Demo = () => {
             placeholder="Enter URL"
             value={article.url}
             onChange={(e) => setArticle({ ...article, url: e.target.value })}
+            onKeyDown={handleEnterPress}
             required
             className="url_input text-center peer"
           />
