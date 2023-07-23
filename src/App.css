@@ -74,7 +74,7 @@
 }
 
 .submit_btn {
-  @apply hover:border-black hover:text-gray-700 relative inset-x-1 inset-y-10 left-10 items-center justify-center font-sans text-sm font-medium text-gray-800 -mr-12;
+  @apply left-11 items-center justify-center;
 }
 
 .link_card {

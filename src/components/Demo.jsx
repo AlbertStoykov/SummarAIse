@@ -63,7 +63,7 @@ const Demo = () => {
           <img
             src={linkIcon}
             alt="link_icon"
-            className="absolute left-0 my-2 ml-3 w-5"
+            className="absolute left-0 my-3 ml-3 w-5"
           />
 
           <input
@@ -75,7 +75,7 @@ const Demo = () => {
             className="url_input peer"
           />
           {/* Button */}
-          <button type="submit" className="submit_btn ">
+          <button type="submit" className="submit_btn">
             <a className="relative inline-block text-lg group m-2">
               <span className="relative z-10 block px-10 py-2.5 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
                 <span className="absolute inset-0 w-full h-full px-1 py-1 rounded-lg bg-gray-50"></span>
