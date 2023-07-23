@@ -4,11 +4,7 @@ An Article Summariser powered by AI.
 
 ### Live App
 
-<a href="https://summaraise.netlify.app/" target="_blank">Visit SummarAIse</a>
-
-[SummarAIse][summaraise]
-
-[summaraise]: https://summaraise.netlify.app/
+<a href="https://summaraise.netlify.app/" target="_blank" rel="noopener noreferrer">SummarAIse</a>
 
 ## Technologies
 
