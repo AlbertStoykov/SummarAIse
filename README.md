@@ -17,7 +17,7 @@ An Article Summariser powered by AI.
 
 ## Future features
 
-- Chat function, users can customize the article summarisation.
+<!-- - Chat function, users can customize the article summarisation. -->
 
 ---
 
