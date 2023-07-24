@@ -1,4 +1,7 @@
-# <img src="https://github.com/AlbertStoykov/SummarAIse/blob/main/src/assets/logo.svg" alt="Logo" href="https://summaraise.netlify.app/" target="_blank" rel="noopener noreferrer" style="width: 250px; height: auto;">
+# <a href="https://summaraise.netlify.app/" target="_blank" rel="noopener noreferrer">
+
+  <img src="https://github.com/AlbertStoykov/SummarAIse/blob/main/src/assets/logo.svg" alt="Logo" style="width: 250px; height: auto;">
+</a>
 
 An Article Summariser powered by AI.
 
