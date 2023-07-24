@@ -148,15 +148,22 @@ const Demo = () => {
         {isFetching ? (
           <img src={loader} alt="loader" className="w-20 h-20 object-contain" />
         ) : error ? (
-          <p
-            className="font-inter 
-            font-bold text-white text-center"
-          >
-            Something wrong happened..
-            <br />
-            <span className="font-satoshi font-normal text-gray-700">
-              {error?.data?.error}
-            </span>
+          <p className="font-inter font-bold text-white text-center">
+            {error.response && error.response.status === 403 ? (
+              <>
+                The website is not giving us permission to do this. :(
+                <br />
+                Please try another URL.
+              </>
+            ) : (
+              <>
+                Something wrong happened..
+                <br />
+                <span className="font-satoshi font-normal text-white">
+                  {error?.data?.error}
+                </span>
+              </>
+            )}
           </p>
         ) : (
           article.summary && (
