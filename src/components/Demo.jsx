@@ -159,7 +159,7 @@ const Demo = () => {
               <>
                 Something wrong happened..
                 <br />
-                <span className="font-satoshi font-normal text-white-bold">
+                <span className="font-satoshi font-normal text-white">
                   {error?.data?.error}
                 </span>
               </>
