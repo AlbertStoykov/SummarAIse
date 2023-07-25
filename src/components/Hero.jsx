@@ -35,7 +35,7 @@ const Hero = () => {
       <h2 className="desc">
         <strong>
           Tired of reading lenghty articles where 90% of the text is fluff? The
-          {/* SummarAIse encapsulator is here to help! */}
+          SummarAIse encapsulator is here to help!
         </strong>
       </h2>
     </header>
