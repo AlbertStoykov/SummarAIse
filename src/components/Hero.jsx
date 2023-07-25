@@ -29,7 +29,7 @@ const Hero = () => {
         {/* Github Button */}
       </nav>
       <h1 className="head_text">
-        {/* <i>SummarAIse</i> */}
+        <i>SummarAIse</i>
         <br></br>Article Summarizer powered by AI
       </h1>
       <h2 className="desc">
