@@ -156,13 +156,13 @@ const Demo = () => {
                 Please try another URL.
               </>
             ) : (
-              <>
+              <div className="summary_box">
                 Something wrong happened..
                 <br />
                 <span className="font-satoshi font-normal text-white">
                   {error?.data?.error}
                 </span>
-              </>
+              </div>
             )}
           </p>
         ) : (
